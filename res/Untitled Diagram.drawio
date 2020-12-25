@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T07:37:32.743Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="14.1.1" etag="tWh2FBZTC4fhRFnUZSvg" type="github"><diagram id="YT9TYIx7m18b1V0B_do6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-25T08:01:40.961Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nTa0jSO_uZofXLnLfH3J" version="14.1.1" type="github">
+  <diagram id="YT9TYIx7m18b1V0B_do6" name="Page-1">
+    <mxGraphModel dx="1184" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-1" value="query理解" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-5" value="复杂句/段落级别理解&lt;br&gt;下层：简单句&lt;br&gt;上层：简单句交互&lt;br&gt;解决问题：一堆废话，找出重点，划分句子主次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="70" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-6" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oAK2r0kqhu3nMjuenfnq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="310" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-7" value="抽象为复杂语义理解、推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-8" value="多轮对话" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-9" value="答案扩写生成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-12" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAK2r0kqhu3nMjuenfnq-14" target="oAK2r0kqhu3nMjuenfnq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="320" />
+              <mxPoint x="320" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-14" value="&lt;br&gt;&lt;span&gt;强化学习框架、归纳推理：&lt;br&gt;1.基于相似度、分类构建有限话术的语义空间表达&lt;br&gt;2.&lt;/span&gt;&lt;span&gt;以催收成功与否为奖励惩罚&lt;/span&gt;&lt;br&gt;&lt;span&gt;3.以每轮对话交互的当前多维度特征作为环境&lt;/span&gt;&lt;br&gt;&lt;span&gt;4.以下一步的对话决策选择作为动作&lt;/span&gt;&lt;br&gt;&lt;span&gt;5.以当前用户对话对下一步话术的选择作为policy策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="365" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="320" as="sourcePoint" />
+            <mxPoint x="294" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-18" value="&lt;span&gt;实时的asr、nlp情绪分析感知判断&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-19" value="&lt;span&gt;自动化运营能力&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-20" value="当前话术配置过重，解耦，以单个小任务为子节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAK2r0kqhu3nMjuenfnq-21" value="上下文建模，纠正当前对话维度特征" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
